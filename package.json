@@ -1,0 +1,55 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GovindarajRamasamy/react-dropdown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GovindarajRamasamy/react-dropdown/issues"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-2"
+    ]
+  },
+  "homepage": "https://github.com/GovindarajRamasamy/react-dropdown#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "immutable": "^3.8.2",
+    "less-loader": "^4.1.0",
+    "react-hot-loader": "^4.3.3",
+    "react-svg-loader": "^2.1.0",
+    "svg-loader": "0.0.2",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "rxjs": "^6.2.2",
+    "rxjs-compat": "^6.2.2",
+    "style-loader": "^0.21.0",
+    "whatwg-fetch": "^2.0.4"
+  }
+}
